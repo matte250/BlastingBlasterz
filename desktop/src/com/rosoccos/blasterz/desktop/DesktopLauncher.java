@@ -9,6 +9,6 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new Blasterz(), config);
 		config.resizable = false;
-		config.height = 100;
+		config.height = 1000;
 	}
 }
